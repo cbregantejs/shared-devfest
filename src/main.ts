@@ -51,7 +51,7 @@ if (generateButton) {
             context.restore();
             
             const link = document.createElement('a');
-            link.download = 'carnet_usuario.png';
+            link.download = 'devfest2023.png';
             link.href = canvas.toDataURL('image/png');
             link.click();
           };
@@ -106,7 +106,7 @@ if (shareButton) {
 
           canvas.toBlob(async function(blob) {
             if (blob) {
-              const file = new File([blob], 'carnet_usuario.png', { type: 'image/png' });
+              const file = new File([blob], 'devfest2023.png', { type: 'image/png' });
 
               try {
                 await navigator.share({
