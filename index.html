@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>DevFest 2023</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">
+        <a href="https://devfestlima.pe/" target="_blank">DevFest Lima 2023</a>
+      </div>
+
+      <div class="form">
+        <input type="file" id="fileInput" />
+        <button id="generateButton">Descargar</button>
+        <button id="shareButton">Compartir</button>
+      </div>
+      <div id="container">
+        <img src="./template.png" alt="">
+        <div class="centerImage">
+          <div id="photoUser"></div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
